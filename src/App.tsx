@@ -97,24 +97,26 @@ const App = () => {
                 </div>
               </div>
               <div className="left-side__bottom-banners">
-                <div className="bottom-banners__left-banner">
-                  <div className="left-banner__img">
+                <div className="bottom-banners__small-banner">
+                  <div className="small-banner__img">
                     <img src={Headphones} alt="Headphones" />
                   </div>
-                  <div className="left-banner__text">
-                    <h1 className="left-banner__title">Apple AirPods Max</h1>
-                    <p className="left-banner__paragraph">
+                  <div className="small-banner__text">
+                    <h1 className="small-banner__title">Apple AirPods Max</h1>
+                    <p className="small-banner__paragraph">
                       Computational audio. Listen, it's powerful
                     </p>
                   </div>
                 </div>
-                <div className="bottom-banners__right-banner">
-                  <div className="right-banner__img">
+                <div className="bottom-banners__small-banner">
+                  <div className="small-banner__img">
                     <img src={VisionPro} alt="" />
                   </div>
-                  <div className="right-banner__text">
-                    <h1 className="right-banner__title">Apple Vision Pro</h1>
-                    <p className="right-banner__paragraph">
+                  <div className="small-banner__text">
+                    <h1 className="small-banner__title small-banner__title--last">
+                      Apple Vision Pro
+                    </h1>
+                    <p className="small-banner__paragraph">
                       An immersive way to experience entertainment
                     </p>
                   </div>
