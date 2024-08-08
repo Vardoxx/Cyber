@@ -9,6 +9,14 @@ import PlayStation from "./img/SmallBanners/PlayStation.png";
 import Headphones from "./img/SmallBanners/Headphones.png";
 import VisionPro from "./img/SmallBanners/VisionPro.png";
 import MacBookPro from "./img/SmallBanners/MacBookPro.png";
+import ArrowLeft from "./img/ProductCategory/ArrowLeft.png";
+import ArrowRight from "./img/ProductCategory/ArrowRight.png";
+import PhoneIcon from "./img/ProductCategory/Icon/PhoneIcon.png";
+import SmartWhathesIcon from "./img/ProductCategory/Icon/SmartWatchesIcon.png";
+import CameraIcon from "./img/ProductCategory/Icon/CameraIcon.png";
+import HeadphonesIcon from "./img/ProductCategory/Icon/HeadphonesIcon.png";
+import ComputerIcon from "./img/ProductCategory/Icon/ComputerIcon.png";
+import GamingIcon from "./img/ProductCategory/Icon/GamingIcon.png";
 
 const App = () => {
   return (
@@ -64,7 +72,7 @@ const App = () => {
         </div>
       </header>
       <main className="main">
-        <div className="main__iphone-banner iphone-banner">
+        <section className="main__iphone-banner iphone-banner">
           <div className="iphone-banner _container">
             <div className="iphone-banner__text">
               <h1 className="iphone-banner__first-title">Pro.Beyond.</h1>
@@ -80,8 +88,8 @@ const App = () => {
               <img src={IphoneBanner} alt="IphoneBanner" />
             </div>
           </div>
-        </div>
-        <div className="main__smaller-banners _smaller-banners__container">
+        </section>
+        <section className="main__smaller-banners _smaller-banners__container">
           <div className="smaller-banners">
             <div className="smaller-banner__left-side">
               <div className="left-side__top-banner">
@@ -141,7 +149,56 @@ const App = () => {
               </div>
             </div>
           </div>
-        </div>
+        </section>
+        <section className="main__product-category product-category">
+          <div className="product-category _container">
+            <div className="product-category__top">
+              <h1 className="product-category__title">Browse By Category</h1>
+              <div className="product-category__pagination">
+                <div className="product-categoru__arrow">
+                  <img src={ArrowLeft} alt="ArrowLeft" />
+                </div>
+                <div className="product-categoru__arrow">
+                  <img src={ArrowRight} alt="ArrowRight" />
+                </div>
+              </div>
+            </div>
+            <div className="product-category__bottom">
+              <ul className="product-category__icons-tab">
+                <li className="product-category__icon-list">
+                  <img src={PhoneIcon} alt="PhoneIcon" />
+                  <p className="product-category__icon-description">Phones</p>
+                </li>
+                <li className="product-category__icon-list">
+                  <img src={SmartWhathesIcon} alt="SmartWhathesIcon" />
+                  <p className="product-category__icon-description">
+                    Smart Watches
+                  </p>
+                </li>
+                <li className="product-category__icon-list">
+                  <img src={CameraIcon} alt="CameraIcon" />
+                  <p className="product-category__icon-description">Cameras</p>
+                </li>
+                <li className="product-category__icon-list">
+                  <img src={HeadphonesIcon} alt="HeadphonesIcon" />
+                  <p className="product-category__icon-description">
+                    Headphones
+                  </p>
+                </li>
+                <li className="product-category__icon-list">
+                  <img src={ComputerIcon} alt="ComputerIcon" />
+                  <p className="product-category__icon-description">
+                    Computers
+                  </p>
+                </li>
+                <li className="product-category__icon-list">
+                  <img src={GamingIcon} alt="GamingIcon" />
+                  <p className="product-category__icon-description">Gaming</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
       </main>
       <footer className="footer"></footer>
     </div>
