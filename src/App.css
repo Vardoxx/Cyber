@@ -290,6 +290,7 @@
   background: #ededed;
   height: 100%;
   width: 100%;
+  padding-top: 15px;
 }
 @media (max-width: 930px) {
   .smaller-banner__right-side {
@@ -389,6 +390,46 @@
     font-size: 33px;
   }
   .big-banner__paragraph {
+    font-size: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .top-banner__title {
+    font-size: 22px;
+  }
+  .top-banner__paragrap {
+    font-size: 14px;
+    line-height: 15px;
+  }
+  .right-banner__title {
+    font-size: 20px;
+  }
+  .right-banner__paragraph {
+    font-size: 8px;
+    line-height: 15px;
+  }
+  .small-banner__title {
+    font-size: 20px;
+  }
+  .small-banner__paragraph {
+    font-size: 8px;
+    line-height: 15px;
+  }
+  .big-banner__title {
+    font-size: 25px;
+  }
+  .big-banner__paragraph {
+    font-size: 8px;
+    line-height: 15px;
+  }
+  .big-banner__text {
+    gap: 10px;
+  }
+  .big-banner__btn {
+    padding: 4px 28px;
+    text-align: center;
+    border-radius: 6px;
+    max-width: calc(184px / 2);
     font-size: 10px;
   }
 }
