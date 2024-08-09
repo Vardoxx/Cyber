@@ -396,7 +396,7 @@
     font-size: 22px;
   }
   .top-banner__paragrap {
-    font-size: 14px;
+    font-size: 8px;
     line-height: 15px;
   }
   .right-banner__title {
@@ -465,10 +465,10 @@
     font-size: 17px;
   }
 }
-.product-categoru__arrow:first-child {
+.product-category__arrow:first-child {
   padding: 4px 10px 4px 0px;
 }
-.product-categoru__arrow:last-child {
+.product-category__arrow:last-child {
   padding: 4px 0px 4px 10px;
 }
 .product-category__bottom {

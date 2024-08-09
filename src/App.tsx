@@ -155,10 +155,10 @@ const App = () => {
             <div className="product-category__top">
               <h1 className="product-category__title">Browse By Category</h1>
               <div className="product-category__pagination">
-                <div className="product-categoru__arrow">
+                <div className="product-category__arrow">
                   <img src={ArrowLeft} alt="ArrowLeft" />
                 </div>
-                <div className="product-categoru__arrow">
+                <div className="product-category__arrow">
                   <img src={ArrowRight} alt="ArrowRight" />
                 </div>
               </div>
@@ -199,6 +199,7 @@ const App = () => {
             </div>
           </div>
         </section>
+        <section className="products"></section>
       </main>
       <footer className="footer"></footer>
     </div>
